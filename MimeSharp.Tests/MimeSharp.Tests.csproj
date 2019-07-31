@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyVersion>1.0.212.6</AssemblyVersion>
+
+    <FileVersion>1.0.212.6</FileVersion>
+
+    <PackageId>MimeSharp.Tests</PackageId>
+
+    <Authors></Authors>
+
+    <Company></Company>
+
+    <Product>MimeSharp.Tests</Product>
+
+    <Copyright>Copyright ©  2019</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.7.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.abstractions" Version="2.0.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MimeSharp\MimeSharp.csproj" />
+  </ItemGroup>
+
+</Project>

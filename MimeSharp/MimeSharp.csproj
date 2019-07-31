@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.2;net45</TargetFrameworks>
+    <AssemblyVersion>1.0.212.6</AssemblyVersion>
+    <FileVersion>1.0.212.6</FileVersion>
+    <PackageId>MimeSharp</PackageId>
+    <Company>MimeSharp</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>MimeSharp</Authors>
+    <Product>MimeSharp</Product>
+    <Copyright>Copyright ©  2019</Copyright>
+  </PropertyGroup>
+
+</Project>
